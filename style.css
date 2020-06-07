@@ -10,3 +10,21 @@ img {
     width: 70px;
     height: 70px;
 }
+
+#nav-link {
+    font-size: 28px;
+}
+
+@media (min-width: 992px) {
+    #nav-link {
+        font-size: 30px;
+        margin-right: 35px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #nav-link {
+        font-size: 35px;
+        margin-right: 35px;
+    }
+}
