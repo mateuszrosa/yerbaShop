@@ -7,14 +7,24 @@ img {
     height: 70px;
 }
 
-#nav-link {
+.nav-item:first-of-type {
+    border-top: 1px solid #000;
+}
+
+.nav-item {
     font-size: 28px;
+    border-bottom: 1px solid black;
 }
 
 @media (min-width: 992px) {
-    #nav-link {
+    .nav-item {
         font-size: 30px;
         margin-right: 35px;
+        border: none;
+    }
+
+    .nav-item:first-of-type {
+        border-top: none;
     }
 }
 
