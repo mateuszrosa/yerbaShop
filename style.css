@@ -2,6 +2,10 @@ nav {
     border-bottom: 1px solid #000;
 }
 
+.container-fluid.home {
+    border: 1px solid #dee2e6;
+}
+
 img {
     width: 70px;
     height: 70px;
@@ -21,6 +25,10 @@ img {
 }
 
 @media (min-width: 768px) {
+    .container-fluid.home {
+        border: none;
+    }
+
     .nav-item {
         margin-right: 5px;
         border: none;
