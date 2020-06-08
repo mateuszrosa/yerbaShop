@@ -29,8 +29,13 @@ img {
     margin-bottom: 15px;
 }
 
-.product img {
+.product a {
     width: 70%;
+    height: 100%;
+}
+
+.product a img {
+    width: 100%;
     height: 100%;
 }
 
@@ -49,9 +54,8 @@ img {
         border-top: none;
     }
 
-    .product img {
-        width: 90%;
-        height: 100%;
+    .product a {
+        width: 100%;
     }
 }
 
