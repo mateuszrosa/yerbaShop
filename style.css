@@ -24,9 +24,20 @@ img {
     border-bottom: none;
 }
 
+.product {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.product img {
+    width: 70%;
+    height: 100%;
+}
+
 @media (min-width: 768px) {
     .container-fluid.home {
         border: none;
+        height: 90vh;
     }
 
     .nav-item {
@@ -36,6 +47,11 @@ img {
 
     .nav-item:first-of-type {
         border-top: none;
+    }
+
+    .product img {
+        width: 90%;
+        height: 100%;
     }
 }
 
