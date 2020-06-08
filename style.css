@@ -7,13 +7,17 @@ img {
     height: 70px;
 }
 
+.nav-item {
+    font-size: 28px;
+    border-bottom: 1px solid black;
+}
+
 .nav-item:first-of-type {
     border-top: 1px solid #000;
 }
 
-.nav-item {
-    font-size: 28px;
-    border-bottom: 1px solid black;
+.nav-item:last-of-type {
+    border-bottom: none;
 }
 
 @media (min-width: 768px) {
