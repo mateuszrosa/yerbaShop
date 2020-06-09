@@ -2,9 +2,7 @@ nav {
     border-bottom: 1px solid #000;
 }
 
-.container-fluid.home {
-    border: 1px solid #dee2e6;
-}
+.container-fluid.home {}
 
 img {
     width: 70px;
