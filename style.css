@@ -11,6 +11,10 @@ img {
     height: 70px;
 }
 
+.list {
+    background-color: #fff;
+}
+
 .nav-item {
     font-size: 28px;
     border-bottom: 1px solid black;
@@ -44,6 +48,11 @@ img {
         border: none;
         height: 90vh;
     }
+
+    .list {
+        background-color: transparent;
+    }
+
 
     .nav-item {
         margin-right: 5px;
