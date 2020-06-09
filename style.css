@@ -31,9 +31,25 @@ img {
     margin-bottom: 15px;
 }
 
+.product:hover>a>.text {
+    opacity: .85;
+}
+
 .product a {
     width: 60%;
     height: 100%;
+    position: relative;
+}
+
+.product .text {
+    opacity: 0;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background-color: #586666;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
 }
 
 .product a img {
