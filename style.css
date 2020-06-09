@@ -69,10 +69,15 @@ img {
 
     .product a {
         width: 100%;
+        overflow: hidden;
     }
 
     .product a .text {
         opacity: 0;
+    }
+
+    .product:hover>a>img {
+        transform: scale(1.2);
     }
 
     .product:hover>a>.text {
