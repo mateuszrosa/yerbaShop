@@ -50,10 +50,6 @@ img {
     height: 100%;
 }
 
-.footer {
-    height: 150px;
-}
-
 @media (min-width: 768px) {
     .container-fluid.home {
         border: none;
