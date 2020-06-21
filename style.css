@@ -28,6 +28,10 @@ nav img {
     height: 55%;
 }
 
+.footer a {
+    color: black
+}
+
 @media (min-width: 768px) {
     .container-fluid.home {
         border: none;
